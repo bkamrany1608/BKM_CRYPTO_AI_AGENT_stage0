@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bkm-crypto-ai-agent"
+version = "0.1.0"
+description = "Auditable crypto analysis and paper-trading core"
+requires-python = ">=3.11"
+
+[tool.unittest]
+start-directory = "tests"
